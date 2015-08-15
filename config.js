@@ -14,6 +14,8 @@ System.config({
   },
 
   map: {
+    "aws-sdk": "github:aws/aws-sdk-js@2.1.45",
+    "aws/aws-sdk-js": "github:aws/aws-sdk-js@2.1.45",
     "babel": "npm:babel-core@5.8.22",
     "babel-runtime": "npm:babel-runtime@5.8.20",
     "core-js": "npm:core-js@1.0.1",

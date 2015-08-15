@@ -1,14 +1,50 @@
 {
   "jspm": {
     "directories": {},
+    "dependencies": {
+      "aws-sdk": "github:aws/aws-sdk-js@2.1.45",
+      "aws/aws-sdk-js": "github:aws/aws-sdk-js@^2.1.45"
+    },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.21",
       "babel-runtime": "npm:babel-runtime@^5.8.20",
       "core-js": "npm:core-js@^1.0.0"
+    },
+    "overrides": {
+      "github:aws/aws-sdk-js@2.1.45": {
+        "directories": {
+          "lib": "dist"
+        },
+        "main": "aws-sdk",
+        "format": "global",
+        "files": [
+          "aws-sdk.js"
+        ],
+        "shim": {
+          "aws-sdk": {
+            "exports": "AWS"
+          }
+        },
+        "dependencies": []
+      }
     }
   },
   "devDependencies": {
+    "babel-eslint": "^4.0.6",
+    "browser-sync": "^2.8.2",
+    "bs-html-injector": "^2.0.4",
+    "eslint": "^1.1.0",
+    "eslint-config-standard": "^4.1.0",
+    "eslint-plugin-standard": "^1.2.0",
     "foreman": "^1.4.1",
-    "node-static": "^0.7.7"
+    "gulp": "^3.9.0",
+    "node-static": "^0.7.7",
+    "standard": "^5.1.0"
+  },
+  "standard": {
+    "ignore": [
+      "/config.js",
+      "/jspm_packages/**/*.js"
+    ]
   }
 }
