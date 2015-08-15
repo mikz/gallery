@@ -1,0 +1,14 @@
+{
+  "jspm": {
+    "directories": {},
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.21",
+      "babel-runtime": "npm:babel-runtime@^5.8.20",
+      "core-js": "npm:core-js@^1.0.0"
+    }
+  },
+  "devDependencies": {
+    "foreman": "^1.4.1",
+    "node-static": "^0.7.7"
+  }
+}
