@@ -3,7 +3,9 @@
     "directories": {},
     "dependencies": {
       "aws-sdk": "github:aws/aws-sdk-js@2.1.45",
-      "aws/aws-sdk-js": "github:aws/aws-sdk-js@^2.1.45"
+      "aws/aws-sdk-js": "github:aws/aws-sdk-js@^2.1.45",
+      "querystring": "github:jspm/nodelibs-querystring@^0.1.0",
+      "url": "github:jspm/nodelibs-url@^0.1.0"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.21",
