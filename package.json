@@ -3,14 +3,21 @@
     "directories": {},
     "dependencies": {
       "aws-sdk": "github:aws/aws-sdk-js@2.1.45",
-      "aws/aws-sdk-js": "github:aws/aws-sdk-js@^2.1.45",
+      "immutable": "npm:immutable@^3.7.4",
+      "lodash": "npm:lodash@^3.10.1",
+      "postcss": "npm:postcss@^5.0.1",
       "querystring": "github:jspm/nodelibs-querystring@^0.1.0",
-      "url": "github:jspm/nodelibs-url@^0.1.0"
+      "react": "npm:react@^0.13.3",
+      "react-redux": "npm:react-redux@^0.9.0",
+      "redux": "npm:redux@^1.0.1",
+      "redux-devtools": "npm:redux-devtools@^1.0.2",
+      "redux-immutable": "npm:redux-immutable@^1.2.3",
+      "rucksack-css": "npm:rucksack-css@^0.6.6"
     },
     "devDependencies": {
-      "babel": "npm:babel-core@^5.8.21",
+      "babel": "npm:babel-core@^5.8.22",
       "babel-runtime": "npm:babel-runtime@^5.8.20",
-      "core-js": "npm:core-js@^1.0.0"
+      "core-js": "npm:core-js@^1.1.0"
     },
     "overrides": {
       "github:aws/aws-sdk-js@2.1.45": {
@@ -32,15 +39,27 @@
     }
   },
   "devDependencies": {
-    "babel-eslint": "^4.0.6",
+    "babel-eslint": "^4.0.10",
     "browser-sync": "^2.8.2",
     "bs-html-injector": "^2.0.4",
     "eslint": "^1.1.0",
     "eslint-config-standard": "^4.1.0",
+    "eslint-config-standard-react": "^1.0.4",
+    "eslint-plugin-react": "^3.2.3",
     "eslint-plugin-standard": "^1.2.0",
     "foreman": "^1.4.1",
     "gulp": "^3.9.0",
-    "node-static": "^0.7.7",
+    "gulp-debug": "^2.1.0",
+    "gulp-postcss": "^6.0.0",
+    "gulp-rucksack": "^0.1.2",
+    "jasmine-core": "^2.3.4",
+    "jspm": "^0.16.0",
+    "karma": "^0.13.9",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-jasmine": "^0.3.6",
+    "karma-jspm": "^2.0.1",
+    "redux-devtools": "^1.0.2",
+    "rucksack-css": "^0.6.6",
     "standard": "^5.1.0"
   },
   "standard": {
@@ -48,5 +67,9 @@
       "/config.js",
       "/jspm_packages/**/*.js"
     ]
+  },
+  "dependencies": {
+    "react-redux": "^0.9.0",
+    "redux": "^1.0.1"
   }
 }

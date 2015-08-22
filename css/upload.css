@@ -1,0 +1,14 @@
+body {
+    background: green;
+    font-size: responsive;
+}
+
+#upload {
+    border: 1px solid blue;
+    min-width: 10em;
+    min-height: 5em;
+}
+
+#upload.dragged {
+    border-color: red;
+}

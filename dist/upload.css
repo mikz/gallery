@@ -1,0 +1,24 @@
+
+@media screen and (min-width: 1280px) {body {
+        font-size: 21px;
+    }
+}body {
+    background: #4CAF50;
+    font-size: calc((12px - 420px * 0.010465116279069767) + 1.0465116279069768vw);
+}
+@media screen and (max-width: 420px) {body {
+        font-size: 12px;
+    }
+}
+
+#upload {
+    border: 1px solid #2196F3;
+    min-width: 10em;
+    min-height: 5em;
+}
+
+#upload.dragged {
+    border-color: #F44336;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVwbG9hZC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7OztDQUFBO0lBQ0ksb0JBQWtCOztDQUVyQjs7Ozs7O0FBRUQ7SUFDSSwwQkFBdUI7SUFDdkIsZ0JBQWdCO0lBQ2hCLGdCQUFnQjtDQUNuQjs7QUFFRDtJQUNJLHNCQUFrQjtDQUNyQiIsImZpbGUiOiJ1cGxvYWQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYm9keSB7XG4gICAgYmFja2dyb3VuZDogZ3JlZW47XG4gICAgZm9udC1zaXplOiByZXNwb25zaXZlO1xufVxuXG4jdXBsb2FkIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCBibHVlO1xuICAgIG1pbi13aWR0aDogMTBlbTtcbiAgICBtaW4taGVpZ2h0OiA1ZW07XG59XG5cbiN1cGxvYWQuZHJhZ2dlZCB7XG4gICAgYm9yZGVyLWNvbG9yOiByZWQ7XG59XG4iXX0= */
